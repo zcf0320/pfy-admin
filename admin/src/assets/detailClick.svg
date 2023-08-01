@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BBD查看</title>
+    <defs>
+        <path d="M12.48,5 C6.1368,5 2.88,11.999343 2.88,11.999343 C2.88,11.999343 5.3376,19 12.48,19 C18.9492,19 22.08,12.0269357 22.08,12.0269357 C22.08,12.0269357 18.9228,5 12.48,5 L12.48,5 L12.48,5 Z M12.4944,16.3747536 C10.1748,16.3747536 8.4984,14.4603473 8.4984,11.999343 C8.4984,9.53833881 10.1748,7.62393243 12.4944,7.62393243 C14.814,7.62393243 16.4904,9.53833881 16.4904,11.999343 C16.4904,14.4603473 14.814,16.3747536 12.4944,16.3747536 L12.4944,16.3747536 L12.4944,16.3747536 Z M12.4944,9.37409244 C11.1696,9.37672454 10.0968,10.5934303 10.0968,11.999343 C10.0968,13.4052557 11.1696,14.6245894 12.4944,14.6245894 C13.8204,14.6245894 14.892,13.4052557 14.892,11.999343 C14.892,10.5934303 13.8204,9.37146879 12.4944,9.37409244 L12.4944,9.37409244 L12.4944,9.37409244 Z" id="path-1"></path>
+        <filter x="-7.8%" y="-10.7%" width="115.6%" height="121.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="按钮状态" transform="translate(-1058.000000, -716.000000)" fill-rule="nonzero">
+            <g id="形状" transform="translate(1058.000000, 716.000000)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#3599FE" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

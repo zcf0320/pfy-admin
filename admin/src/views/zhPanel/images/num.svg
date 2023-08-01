@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108px" height="86px" viewBox="0 0 108 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 2</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#213863" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#213863" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#213863" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="55.652589%" x2="102.763408%" y2="41.8582363%" id="linearGradient-4">
+            <stop stop-color="#3599FE" offset="0%"></stop>
+            <stop stop-color="#3F5FFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="84.392864%" x2="102.763408%" y2="0.461891289%" id="linearGradient-5">
+            <stop stop-color="#3599FE" offset="0%"></stop>
+            <stop stop-color="#3F5FFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="中韩数据看板" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="数据大屏备份-5" transform="translate(-1835.000000, -390.000000)">
+            <g id="编组-2" transform="translate(1835.000000, 390.000000)">
+                <rect id="矩形" fill="url(#linearGradient-1)" opacity="0.274553571" x="15.6" y="35.8333333" width="18" height="50.1666667"></rect>
+                <rect id="矩形备份-2" fill="url(#linearGradient-2)" opacity="0.274553571" x="42" y="0" width="18" height="86"></rect>
+                <rect id="矩形备份-3" fill="url(#linearGradient-3)" opacity="0.274553571" x="67.2" y="25.0833333" width="18" height="60.9166667"></rect>
+                <path d="M3.6,63.8918004 C18.9973894,74.2582887 28.5740772,74.2582887 32.3300632,63.8918004 C37.9640422,48.342068 44.7525025,39.0739194 55.4935151,39.0739194 C62.6541902,39.0739194 68.5148819,41.4937746 73.0755903,46.3334852 C81.5786997,53.0063829 88.0201696,49.5063322 92.4,35.8333333" id="路径-2" stroke="url(#linearGradient-4)" stroke-width="7.2" stroke-linecap="round"></path>
+                <ellipse id="椭圆形" stroke="url(#linearGradient-5)" stroke-width="6" cx="95.4" cy="25.6805556" rx="9" ry="8.95833333"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

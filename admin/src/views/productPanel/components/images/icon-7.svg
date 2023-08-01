@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>投保</title>
+    <defs>
+        <circle id="path-1" cx="33.5" cy="33.5" r="24.5"></circle>
+        <filter x="-18.4%" y="-18.4%" width="136.7%" height="136.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.699473505   0 0 0 0 0.699473505   0 0 0 0 0.699473505  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="健康/保险管理2.5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="保险产品数据" transform="translate(-864.000000, -989.000000)">
+            <g id="投保" transform="translate(864.000000, 989.000000)">
+                <g id="椭圆形备份-13">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="概率" transform="translate(19.000000, 17.000000)" fill-rule="nonzero">
+                    <path d="M25.7461861,16.3900628 L15.0047385,16.3900628 C14.2349366,16.3900628 13.6098984,15.7650263 13.6098984,14.9952267 L13.6098984,4.25380985 C13.6098984,3.42780801 12.8945957,2.77381893 12.0754039,2.86578614 C5.17614652,3.64069508 -0.163076588,9.57429022 0.00380739781,16.7187804 C0.174117545,23.9382134 6.06172603,29.8275014 13.2811798,29.9961147 C20.4256905,30.1647212 26.3593027,24.8255201 27.1342138,17.9245528 C27.2261813,17.1053633 26.5721903,16.3900628 25.7461861,16.3900628 Z" id="路径" fill="#BEF0E1"></path>
+                    <path d="M29.990897,12.6640886 C29.2447956,6.0246715 23.9753496,0.753434614 17.3359325,0.00912408247 C16.4693762,-0.0879589838 15.7142857,0.602409488 15.7142857,1.47435925 L15.7142857,12.8132878 C15.7142857,13.625909 16.374091,14.2857143 17.1867122,14.2857143 L28.5256408,14.2857143 C29.3975905,14.2839165 30.087959,13.5306238 29.9908759,12.6640675 L29.990897,12.6640886 Z" id="路径" fill="#2ACC9B"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

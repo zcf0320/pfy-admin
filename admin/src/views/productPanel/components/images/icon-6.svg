@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>销量</title>
+    <defs>
+        <circle id="path-1" cx="33.5" cy="33.5" r="24.5"></circle>
+        <filter x="-18.4%" y="-18.4%" width="136.7%" height="136.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.699473505   0 0 0 0 0.699473505   0 0 0 0 0.699473505  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="健康/保险管理2.5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="保险产品数据" transform="translate(-596.000000, -989.000000)">
+            <g id="销量备份" transform="translate(596.000000, 989.000000)">
+                <g id="椭圆形备份-5">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="计算-面" transform="translate(21.000000, 21.000000)" fill-rule="nonzero">
+                    <path d="M12.375,14.625 L12.375,27 L2.475,27 C1.15691518,27 0.0794651786,25.9696339 0.00421339286,24.6704357 L0,24.525 L0,14.625 L12.375,14.625 Z M9,18 L7.3125,19.6876705 L5.625,18 L4.5,19.125 L6.18767046,20.8125 L4.5,22.5 L5.625,23.625 L7.3125,21.9373295 L9,23.625 L10.125,22.5 L8.43732954,20.8125 L10.125,19.125 L9,18 Z M12.375,0 L12.375,12.375 L0,12.375 L0,2.475 C0,1.15691518 1.03036607,0.0794651786 2.32956429,0.00421339286 L2.475,0 L12.375,0 Z M24.525,0 C25.8430848,0 26.9205348,1.03036607 26.9957866,2.32956429 L27,2.475 L27,12.375 L14.625,12.375 L14.625,0 L24.525,0 Z M7.59375,3.375 L5.90625,3.375 L5.90625,5.90625 L3.375,5.90625 L3.375,7.59375 L5.90625,7.59375 L5.90625,10.125 L7.59375,10.125 L7.59375,7.59375 L10.125,7.59375 L10.125,5.90625 L7.59375,5.90625 L7.59375,3.375 Z M23.625,5.625 L16.875,5.625 L16.875,7.875 L23.625,7.875 L23.625,5.625 Z" id="形状" fill="#FF900D"></path>
+                    <path d="M27,14.625 L27,24.525 C27,25.8430848 25.9696339,26.9205348 24.6704357,26.9957866 L24.525,27 L14.625,27 L14.625,14.625 L27,14.625 Z" id="路径" fill="#FFCC8F"></path>
+                    <polygon id="路径" fill="#FFFFFF" points="23.625 21.375 16.875 21.375 16.875 23.625 23.625 23.625"></polygon>
+                    <polygon id="路径" fill="#FFFFFF" points="23.625 18 16.875 18 16.875 20.25 23.625 20.25"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

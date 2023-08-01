@@ -1,0 +1,493 @@
+// cover some element-ui styles
+
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+    font-weight: 400 !important;
+}
+
+.el-upload {
+    input[type="file"] {
+        display: none !important;
+    }
+}
+
+.el-upload__input {
+    display: none;
+}
+
+.cell {
+    .el-tag {
+        margin-right: 0px;
+    }
+}
+
+.small-padding {
+    .cell {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+.fixed-width {
+    .el-button--mini {
+        padding: 7px 10px;
+        width: 60px;
+    }
+}
+
+.status-col {
+    .cell {
+        padding: 0 10px;
+        text-align: center;
+
+        .el-tag {
+            margin-right: 0px;
+        }
+    }
+}
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+    transform: none;
+    left: 0;
+    position: relative;
+    margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+    .el-upload {
+        width: 100%;
+
+        .el-upload-dragger {
+            width: 100%;
+            height: 200px;
+        }
+    }
+}
+
+// dropdown
+.el-dropdown-menu {
+    a {
+        display: block;
+    }
+}
+
+// fix date-picker ui bug in filter-item
+.el-range-editor.el-input__inner {
+    display: inline-flex !important;
+}
+
+// to fix el-date-picker css style
+.el-range-separator {
+    box-sizing: content-box;
+}
+
+.viewPic {
+    .el-dialog {
+        padding: 0 12px;
+    }
+    .el-dialog__header {
+        padding: 24px;
+        height: 64px;
+    }
+    .el-dialog__header .el-dialog__title {
+        font-weight: 500;
+        color: #333333;
+        line-height: 18px;
+    }
+    .el-dialog__headerbtn .el-dialog__close {
+        color: #1c1c1c;
+        font-size: 18px;
+    }
+}
+.settle-upload {
+    .el-upload--picture-card {
+        cursor: pointer;
+        width: 96px;
+        height: 14px;
+        line-height: 14px;
+        background-color: #fff;
+        border: none;
+        span {
+            text-decoration: underline;
+        }
+    }
+    img {
+        width: 36px;
+        height: 36px;
+    }
+}
+.settle-dialog {
+    .el-button--danger.is-plain {
+        background: #fff;
+        &:hover {
+            background: #ffb6b6;
+        }
+    }
+    .el-dialog__footer {
+        border-top: 1px solid #cccccc;
+        padding: 24px 24px 24px 24px !important;
+    }
+    .el-dialog__header {
+        padding: 24px;
+    }
+    .el-dialog__header {
+        height: 70px;
+    }
+}
+.cata-drop {
+    .el-dropdown-menu__item {
+        font-size: 16px;
+        text-align: center;
+        color: #545473;
+    }
+}
+.bold-dialog {
+    .el-dialog__header {
+        height: 80px;
+        padding: 30px;
+        .el-dialog__title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #464668;
+        }
+        .el-dialog__headerbtn {
+            top: 32px;
+            right: 30px;
+            .el-dialog__close {
+                color: #464668;
+                font-size: 20px;
+            }
+        }
+    }
+    .el-dialog__body {
+        margin-bottom: 18px;
+        box-shadow: 0px 2px 10px 0px rgba(56, 56, 56, 0.06);
+    }
+    .el-dialog__footer {
+        border-radius: 0px 0px 4px 4px;
+    }
+}
+.mt24-form {
+    .el-form-item__content {
+        margin-top: -24px;
+    }
+}
+.popover-code {
+    padding: 0;
+    .code-container {
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -12px;
+        .view-code {
+            font-size: 16px;
+            color: #464668;
+            margin-top: 9px;
+        }
+        .code-img {
+            background: url("../assets/code-pic.png");
+            background-size: 100% 100%;
+            width: 194px;
+            height: 106px;
+            margin-bottom: 12px;
+        }
+        .qrcode {
+            img {
+                width: 162px !important;
+                height: 162px !important;
+                padding: 0 !important;
+            }
+        }
+    }
+}
+.menu-select {
+    position: relative;
+    .select {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .el-input__inner {
+        width: 213px;
+        height: 28px;
+        background: #292a43;
+        border-radius: 14px;
+        border: none !important;
+        font-size: 13px;
+        line-height: 28px;
+        padding-left: 41px;
+        color: #fff;
+        ::-webkit-input-placeholder {
+            /* WebKit, Blink, Edge */
+            color: #4b4e6d;
+        }
+        :-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: #4b4e6d;
+        }
+        ::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: #4b4e6d;
+        }
+        :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #4b4e6d;
+        }
+    }
+    .el-icon-search {
+        position: absolute;
+        left: 32px;
+        top: 6px;
+        z-index: 99;
+        color: #4b4e6d;
+    }
+}
+.select-search {
+    .el-scrollbar__wrap {
+        margin-bottom: 0 !important;
+        overflow-x: auto !important;
+    }
+}
+.tree-role {
+    .el-tree-node {
+        position: relative;
+        padding-left: 16px; // 缩进量
+    }
+    .el-tree-node__children {
+        padding-left: 6px; // 缩进量
+    }
+
+    // 竖线
+    .el-tree-node::before {
+        content: "";
+        height: 100%;
+        width: 1px;
+        position: absolute;
+        left: 1px;
+        top: -26px;
+        border-width: 1px;
+        border-left: 1px dashed #cfd4e1;
+    }
+    // 当前层最后一个节点的竖线高度固定
+    .el-tree-node:last-child::before {
+        height: 38px; // 可以自己调节到合适数值
+    }
+
+    // 横线
+    .el-tree-node::after {
+        content: "";
+        width: 11px;
+        height: 20px;
+        position: absolute;
+        left: 2px;
+        top: 13px;
+        border-width: 1px;
+        border-top: 1px dashed #cfd4e1;
+    }
+
+    // 去掉最顶层的虚线，放最下面样式才不会被上面的覆盖了
+    & > .el-tree-node::after {
+        border-top: none;
+    }
+    & > .el-tree-node::before {
+        border-left: none;
+    }
+
+    // 展开关闭的icon
+    .el-tree-node__expand-icon {
+        font-size: 16px;
+        display: none;
+        // 叶子节点（无子节点）
+        &.is-leaf {
+            color: transparent;
+            // display: none; // 也可以去掉
+        }
+    }
+    .el-tree-node__content {
+        padding-left: 0 !important;
+    }
+}
+.order-table {
+    .cell {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.drug-type-table {
+    th {
+        .el-checkbox {
+            margin-left: -10px;
+            float: left;
+        }
+    }
+
+    tbody .el-checkbox {
+        float: left;
+    }
+    td {
+        border-left: 1px solid #e8e8e8;
+        &:first-child {
+            border-left: 0;
+        }
+    }
+}
+.vertical-ruleForm {
+    margin-top: 24px;
+    .el-form-item__content {
+        margin-top: -34px;
+    }
+}
+.object-table {
+    .el-table__row {
+        .cell {
+            padding: 0 10px !important;
+        }
+    }
+}
+.content-upload-box {
+    justify-content: flex-start;
+    align-items: center;
+    .el-upload--picture-card {
+        width: 100px;
+        height: 100px;
+    }
+    .el-icon-plus {
+        top: 33px;
+        position: absolute;
+        left: 36px;
+    }
+}
+.table-list-setting {
+    .el-input.is-disabled .el-input__inner,
+    .el-textarea.is-disabled .el-textarea__inner,
+    .el-cascader--medium.is-disabled {
+        text-align: center;
+    }
+}
+.yt-card-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+}
+.zh-layput-pad {
+    padding: 32px 48px;
+    background: #1f2544;
+    border: 1px solid #5d4dfd;
+}
+.yt-bar {
+    .el-progress-bar__outer {
+        height: 10px !important;
+        background-color: #373371;
+    }
+}
+.agreement {
+    .w-e-text-container {
+        height: 500px !important;
+    }
+}
+.panel-select {
+    .el-input__inner {
+        padding-left: 32px;
+    }
+}
+.yt-carousel {
+    .el-carousel__indicators {
+        display: none;
+    }
+    .el-carousel__container {
+        height: 480px;
+    }
+    .el-carousel__arrow {
+        background-color: #404369;
+    }
+}
+.new-form {
+    width: 99%;
+    box-shadow: rgba(158, 158, 158, 0.5) 0px 0px 5px;
+    border-radius: 4px;
+    margin: 24px auto 0;
+    box-sizing: border-box;
+    .content-detail {
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 48px;
+        background: #f3f6f9;
+        font-size: 16px;
+        font-weight: bold;
+        color: #545473;
+        padding: 16px;
+        border-bottom: 1px solid #e8e8e8;
+        .blue-line {
+            width: 4px;
+            height: 16px;
+            background: #3599fe;
+            margin-right: 12px;
+        }
+    }
+    .content-row {
+        width: 100%;
+        height: 48px;
+        box-shadow: 0px 1px 0px 0px #e8e8e8;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 14px;
+        font-weight: bold;
+        color: #545473;
+        line-height: 48px;
+    }
+    .content-left {
+        // border-right: 1px solid #e8e8e8;
+        // flex: 0 0 15%;
+        // margin-left: 32px;
+        // height: 48px;
+        border-right: 1px solid #ebedf2;
+        display: flex;
+         align-items: center;
+         min-height: 48px;
+         height: 100%;
+         width: 165px;
+         font-weight: bold;
+         padding-left: 32px;
+    }
+    .content-right {
+        border-right: 1px solid #e8e8e8;
+    }
+    .normal {
+        font-weight: normal;
+        flex: 0 0 30%;
+        margin-left: 32px;
+        height: 48px;
+    }
+}
+.panel-select-close {
+    .el-input--medium .el-input__inner {
+        padding-left: 30px !important;
+    }
+}
+.insurance-bar {
+    width: 344px;
+    .el-progress-bar__outer {
+        border-radius: 0;
+    }
+    .el-progress-bar__inner {
+        border-radius: 0;
+    }
+}
+.insurance-bar2 {
+    width: 409px;
+    .el-progress-bar__outer {
+        border-radius: 0;
+    }
+    .el-progress-bar__inner {
+        border-radius: 0;
+    }
+}
+.rx {
+    .el-form-item {
+        margin-bottom: 6px;
+    }
+}

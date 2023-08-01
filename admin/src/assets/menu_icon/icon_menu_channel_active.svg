@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="18px" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>收集</title>
+    <g id="将康管理1.8.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="侧边栏备份" transform="translate(-621.000000, -528.000000)" fill-rule="nonzero">
+            <g id="收集" transform="translate(621.000000, 528.000000)">
+                <polygon id="路径" fill="#3599FE" points="12.2838009 6.56757691 12.2838009 13.9256936 4.25676454 13.9256936 4.25676454 6.56757691 0.243246357 6.56757691 0.243246357 17.9392118 16.2973191 17.9392118 16.2973191 6.56757691"></polygon>
+                <path d="M5.25980963,10.6466492 L7.26656872,7.17094248 L10.7422755,9.17770157 L8.73551637,12.6534083 L5.25980963,10.6466492 Z M7.15653143,2.42529168 L10.475042,0.167687704 L12.732646,3.48586386 L9.41446987,5.74346784 L7.15653143,2.42529168 Z" id="形状" fill="#2B2C43"></path>
+            </g>
+        </g>
+    </g>
+</svg>

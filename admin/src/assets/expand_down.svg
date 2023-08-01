@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="18px" viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>侧边栏收起备份</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="购药商城-商品信息" transform="translate(-1352.000000, -299.000000)" stroke-width="2">
+            <g id="侧边栏收起备份" transform="translate(1360.000000, 308.000000) scale(-1, -1) rotate(-90.000000) translate(-1360.000000, -308.000000) translate(1351.500000, 300.000000)">
+                <g id="编组" transform="translate(1.000000, 1.000000)">
+                    <path d="M7,0 L0.663293629,6.42107921 C0.290980152,6.79835002 0.277714171,7.40058621 0.633053625,7.79388566 L6.24017378,14 L6.24017378,14" id="路径" stroke="#3599FE"></path>
+                    <path d="M15,0 L8.66329363,6.42107921 C8.29098015,6.79835002 8.27771417,7.40058621 8.63305363,7.79388566 L14.2401738,14 L14.2401738,14" id="路径" stroke="#9DCEFF" opacity="0.545503162"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

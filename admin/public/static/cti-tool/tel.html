@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>cti-tool</title>
+    <!-- <link rel="stylesheet" href="./css/mynumkb.css"> -->
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./assets/iconfont/iconfont.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-item phone-num">
+            <span class="header-phone-val"></span>
+        </div>
+        <div class="header-item header-item-non">
+            <div class="check-in">
+                <span class="iconfont icon-icon-test"></span>
+                <span class="header-title">签入1</span>
+            </div>
+
+        </div>
+        <div class="header-item header-item-non">
+            <div class="check-out">
+                <span class="iconfont icon-checkOut-qianchu"></span>
+                <span class="header-title">签出</span>
+            </div>
+        </div>
+        <div class="header-item header-item-non">
+            <div class="telephone">
+                <span class="iconfont icon-telephone"></span>
+                <span class="header-title">拨打</span>
+            </div>
+
+            <div class="keyboard-box">
+                <div class="triangle" style="left:102px;"></div>
+                <div class="keyboard-header">
+                    <input type="text" class="keyboard-header-input" placeholder="输入手机号码或分机号">
+                </div>
+                <div class="keyboard-content">
+                    <button data-val="1">1</button>
+                    <button data-val="2">2</button>
+                    <button data-val="3">3</button>
+                    <button data-val="4">4</button>
+                    <button data-val="5">5</button>
+                    <button data-val="6">6</button>
+                    <button data-val="7">7</button>
+                    <button data-val="8">8</button>
+                    <button data-val="9">9</button>
+                    <button data-val="清空">清空</button>
+                    <button data-val="0">0</button>
+                    <button data-val="撤回">撤回</button>
+                </div>
+                <div class="keyboard-footer">
+                    <button>呼叫</button>
+                </div>
+            </div>
+        </div>
+        <div class="header-item header-item-non">
+            <div class="hang-up">
+                <span class="iconfont icon-guaduan1"></span>
+                <span class="header-title">挂断</span>
+            </div>
+
+        </div>
+        <div class="header-item header-item-non">
+            <div class="hold-on">
+                <span class="iconfont icon-zanting1"></span>
+                <span class="header-title">保持</span>
+            </div>
+
+        </div>
+        <div class="header-item header-item-non">
+            <div class="hold-off">
+                <span class="iconfont icon-bofang"></span>
+                <span class="header-title">解除保持</span>
+            </div>
+
+        </div>
+        <div class="header-item header-item-non">
+            <div class="transfer">
+                <span class="iconfont icon-zhuanjie"></span>
+                <span class="header-title">转接</span>
+            </div>
+            <div class="tabs transfer-tabs">
+                <div class="triangle" style="left: 88px;"></div>
+                <div class="tab-body">
+                    <input type="text" placeholder="输入手机号码或分机号" class="transfer-input">
+                </div>
+                <div class="tab-footer">
+                    <button class="transfer-call">开始转接</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-item header-item-non">
+            <div class="enquire">
+                <span class="iconfont icon-V"></span>
+                <span class="header-title">询问</span>
+            </div>
+
+            <div class="tabs enquire-tabs">
+                <div class="triangle" style="left: 88px;"></div>
+                <div class="tab-body">
+                    <input type="text" placeholder="输入手机号码或分机号" class="enquire-input">
+                </div>
+                <div class="tab-footer enquire-start">
+                    <button class="enquire-call">开始询问</button>
+                </div>
+                <div class="tab-footer enquire-cancel">
+                    <button class="enquire-call-confirm">确定询问</button>
+                    <button class="enquire-call-cancel">取消询问</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-item header-item-non">
+            <div class="trilateral">
+                <span class="iconfont icon-renyuanhebing"></span>
+                <span class="header-title">三方</span>
+            </div>
+            <div class="tabs trilateral-tabs">
+                <div class="triangle" style="left: 86px;"></div>
+                <div class="tab-body">
+                    <input type="text" placeholder="输入手机号码或分机号" class="trilateral-input">
+                </div>
+                <div class="tab-footer trilateral-start">
+                    <button class="trilateral-call-start">开始三方</button>
+                </div>
+                <div class="tab-footer trilateral-cancel">
+                    <button class="trilateral-call-cancel">取消三方</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-item header-item-non">
+            <div class="evaluate">
+                <span class="iconfont icon-hua"></span>
+                <span class="header-title">评价</span>
+            </div>
+        </div>
+
+        <div class="header-item ">
+            <div class="relay-number">
+                <span>主叫号码：</span>
+                <select class="relay-number-select">
+                </select>
+            </div>
+        </div>
+
+        <div class="header-status">
+            <div class="header-status-right phone-red">
+                <span class="header-status-title">离线1</span>
+                <span style="font-size: 12px;margin-left: 4px;" class="iconfont icon-ai-arrow-down"></span>
+            </div>
+        </div>
+
+
+
+        <div class="phone-status"></div>
+    </div>
+    <div class="call-content">
+        <div class="call-content-title">
+            来电通知
+        </div>
+        <div class="call-content-body">
+            <div class="answer" style="color:#42b983"><span class="iconfont icon-telephone"></span> 接听</div>
+            <div class="ring-off" style="color:red"><span class="iconfont icon-guaduan1"></span> 挂断</div>
+        </div>
+    </div>
+    <!---录音文件-->
+    <!--按键音-->
+    <audio id="dtmf" src="./assets/sounds/dtmf.wav"></audio>
+    <!--振铃-->
+    <audio id="ringtone" loop src="./assets/sounds/incoming-call-ringtone.wav"></audio>
+    <!--挂断-->
+    <audio id="ringbacktone" src="./assets/sounds/ringbacktone.wav"></audio>
+    <!---开始声音-->
+    <audio id="start" src="./assets/sounds/start.wav"></audio>
+</body>
+
+<script src="./js/jquery.min.js"></script>
+
+<!---外置-->
+<script src="./js/signalr.js"></script>
+<script src="./js/external.js"></script>
+<!--内置-->
+<script src="./js/jssip.min.js"></script>
+<script src="./js/built-in.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        //父组件接受数据
+
+        if (ctiObj.isWebrtc == 1) {
+            // 注册话机
+            registerWebrtc()
+        }
+
+        // 键盘事件
+        $(".keyboard-content button").on("click", function () {
+            let btnText = $(this).attr('data-val')
+            let callee = $(".keyboard-header-input").val()
+            $("#dtmf")[0].play()
+            if (btnText === "清空") {
+                callee = "";
+            } else if (btnText === "撤回") {
+                callee = callee.substring(0, callee.length - 1);
+            } else {
+                callee += btnText;
+            }
+            $(".keyboard-header-input").val(callee)
+        })
+
+        // 电话键盘
+        $('.telephone').click(function () {
+            $(".keyboard-box").toggle()
+            $('.keyboard-header-input').focus()
+        })
+
+
+        // 询问
+        $('.enquire').click(function () {
+            $(".enquire-tabs").toggle()
+            $(".transfer-tabs").attr("style", "display:none;")
+            $(".trilateral-tabs").attr("style", "display:none;")
+            $('.enquire-input').focus()
+        })
+
+        // 转接
+        $('.transfer').click(function () {
+            $(".transfer-tabs").toggle()
+            $(".trilateral-tabs").attr("style", "display:none;")
+            $(".enquire-tabs").attr("style", "display:none;")
+            $('.transfer-input').focus()
+        })
+
+        // 三方
+        $('.trilateral').click(function () {
+            $(".trilateral-tabs").toggle()
+            $(".transfer-tabs").attr("style", "display:none;")
+            $(".enquire-tabs").attr("style", "display:none;")
+            $('.trilateral-input').focus()
+        })
+    })
+
+    $('.header-status').click(function () {
+        if (['1', '2', '3', '7'].indexOf(ctiObj.currentState) != -1) {
+            $(".phone-status").toggle()
+        }
+    })
+
+    //状态切换
+    $(".phone-status").on("click", 'div', function () {
+        changeModifyState($(this).attr('data-val'))
+        $(".phone-status").toggle()
+    });
+</script>
+
+</html>

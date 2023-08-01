@@ -1,0 +1,63 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+.mykb-box {
+    width: 210px;
+    height: 210px;
+    background: rgba(0, 0, 0, 0.6);
+    /* filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000); */
+    box-shadow: 0 0 10px rgb(43, 42, 42);
+    /* padding:20px; */
+    /* border-radius:10px; */
+    /* user-select: none; */
+    /* -ms-user-select: none; */
+    position: absolute;
+    top: 83px !important;
+    left: 0px !important;
+    display: block;
+}
+
+.mykb-box ul {
+    padding-inline-start: 10px;
+
+}
+
+.mykb-box ul,
+.mykb-box li {
+    list-style: none;
+}
+
+.mykb-box li {
+    width: 30px;
+    /* height:30px; */
+    line-height: 30px;
+    text-align: center;
+    background: #f5f5f5;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 7px;
+    float: left;
+    box-shadow: 0px 2px 1px #000;
+    color: #1b50a2;
+    /* font-size:20px; */
+    cursor: pointer;
+}
+
+.mykb-box li.active{
+    box-shadow:0px -2px 1px #000;
+}
+.mykb-box .func {
+    width: 80px;
+}
+
+.mykb-box .sure {
+    width: 80px;
+}

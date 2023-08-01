@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>数据</title>
+    <defs>
+        <rect id="path-1" x="268" y="388" width="1074" height="135" rx="4"></rect>
+        <filter x="-2.0%" y="-11.1%" width="103.9%" height="131.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.950577446   0 0 0 0 0.950577446   0 0 0 0 0.950577446  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="健康管理系用1.9.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="工作流" transform="translate(-292.000000, -412.000000)">
+            <rect fill="#F3F6FC" x="0" y="0" width="1366" height="794"></rect>
+            <g id="顶部导航栏备份-4">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="数据" transform="translate(292.000000, 412.000000)" fill-rule="nonzero">
+                <path d="M15.9989627,7 L15.9989629,7 C16.0645906,3.19934129 13.0072412,0.0654837824 9.16987268,0 L9,0 L9.02062076,7 L15.9999247,7 L15.9989627,7 Z" id="路径" fill="#CAE4FF"></path>
+                <path d="M0,9.05730902 L0,9.05732072 C0.00266309421,12.8905712 3.10946574,15.9973682 6.94270314,16 L6.94270335,16 C10.8513904,15.8840947 13.9688467,12.6983078 14,8.7880061 L7.21198534,8.7880061 L7.21198534,2 L7.21198516,2 C3.30229926,2.03262215 0.117367945,5.14925446 0,9.05732071 L0,9.05730902 Z" id="路径" fill="#3599FE"></path>
+            </g>
+        </g>
+    </g>
+</svg>

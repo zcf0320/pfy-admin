@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>减</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.207843 0 0 0 0 0.600000 0 0 0 0 0.996078 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="减" transform="translate(-1254.000000, -719.000000)" filter="url(#filter-1)">
+            <g transform="translate(1254.000000, 719.000000)">
+                <path d="M1.42045455,8 L18.4659091,8 C19.2504045,8 19.8863636,8.66273639 19.8863636,9.48026316 C19.8863636,10.2977899 19.2504045,10.9605263 18.4659091,10.9605263 L1.42045455,10.9605263 C0.635959162,10.9605263 0,10.2977899 0,9.48026316 C0,8.66273639 0.635959162,8 1.42045455,8 Z" id="路径" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

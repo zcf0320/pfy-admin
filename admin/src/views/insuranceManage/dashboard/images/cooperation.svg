@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="72px" viewBox="0 0 90 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 2</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3599FE" offset="0%"></stop>
+            <stop stop-color="#02DDBC" stop-opacity="0.023628715" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#3599FE" offset="0%"></stop>
+            <stop stop-color="#02DDBC" stop-opacity="0.0195858829" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#3599FE" offset="0%"></stop>
+            <stop stop-color="#02DDBC" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="55.7052936%" x2="102.763408%" y2="41.7823229%" id="linearGradient-4">
+            <stop stop-color="#3599FE" offset="0%"></stop>
+            <stop stop-color="#83CFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="2.7.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="保险数据" transform="translate(-504.000000, -208.000000)">
+            <g id="编组-2" transform="translate(504.000000, 208.000000)">
+                <rect id="矩形" fill="url(#linearGradient-1)" opacity="0.274553571" x="13" y="30" width="15" height="42"></rect>
+                <rect id="矩形备份-2" fill="url(#linearGradient-2)" opacity="0.274553571" x="35" y="0" width="15" height="72"></rect>
+                <rect id="矩形备份-3" fill="url(#linearGradient-3)" opacity="0.274553571" x="56" y="21" width="15" height="51"></rect>
+                <path d="M3,53.4908097 C15.8311579,62.1697301 23.811731,62.1697301 26.9417193,53.4908097 C31.6367019,40.472429 37.2937521,32.7130488 46.2445959,32.7130488 C52.2118252,32.7130488 57.095735,34.7389741 60.8963252,38.7908249 C67.9822498,44.3774368 73.3501413,41.4471619 77,30" id="路径-2" stroke="url(#linearGradient-4)" stroke-width="6" stroke-linecap="round"></path>
+                <circle id="椭圆形" stroke="#93C9FF" stroke-width="5" cx="79.5" cy="21.5" r="7.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

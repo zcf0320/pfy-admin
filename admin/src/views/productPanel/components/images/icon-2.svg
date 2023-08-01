@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>销量</title>
+    <defs>
+        <circle id="path-1" cx="33.5" cy="33.5" r="24.5"></circle>
+        <filter x="-18.4%" y="-18.4%" width="136.7%" height="136.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.699473505   0 0 0 0 0.699473505   0 0 0 0 0.699473505  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="健康/保险管理2.5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="保险产品数据" transform="translate(-596.000000, -891.000000)">
+            <g id="销量" transform="translate(596.000000, 891.000000)">
+                <g id="椭圆形备份-5">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="个险总接通量" transform="translate(22.000000, 22.000000)" fill-rule="nonzero">
+                    <path d="M9.69490234,0 L16.3050469,0 L16.3050469,23 L9.69490234,23 L9.69490234,0 Z M0,8.87718238 L6.61014453,8.87718238 L6.61014453,23 L0,23 L0,8.87718238 Z" id="形状" fill="#18C4BD"></path>
+                    <polygon id="路径" fill="#B4EAE8" points="19.3898555 8.87718238 26 8.87718238 26 23 19.3898555 23"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>启用备份 2</title>
+    <defs>
+        <path d="M10.0000116,0 L10.0000112,0 C4.47715321,0 -4.37114068e-07,4.47715365 -4.37114068e-07,10.0000116 C-4.37114068e-07,15.5228696 4.47715321,20.0000233 10.0000112,20.0000233 C15.5228692,20.0000233 20.0000228,15.5228696 20.0000228,10.0000116 L20.0000228,10.0000116 C20.0000228,4.47715365 15.5228692,0 10.0000112,0 L10.0000116,0 Z" id="path-1"></path>
+        <filter x="-7.5%" y="-7.5%" width="115.0%" height="115.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="按钮状态" transform="translate(-833.000000, -374.000000)" fill-rule="nonzero">
+            <g id="编组-3" transform="translate(833.000000, 374.000000)">
+                <g id="启用备份-2" transform="translate(2.000000, 2.000000)">
+                    <g id="形状">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#3599FE" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M16.0000186,7.92250922 L9.88876151,14.0337663 L9.88876148,14.0337664 C9.34773546,14.5731654 8.47228523,14.5731654 7.93125921,14.0337663 L3.99875463,10.1012617 L3.99875462,10.1012617 C3.47267003,9.54693881 3.49556068,8.67109404 4.04988261,8.14500945 C4.5838305,7.63826081 5.42105804,7.63826081 5.95500788,8.14500946 L8.90876131,11.0987629 L14.0412673,5.96625693 L14.0412673,5.96625694 C14.5818167,5.42570748 15.4582201,5.42570748 15.9987695,5.96625693 C16.539319,6.50680639 16.539319,7.38320975 15.9987696,7.92375921 L16.0000186,7.92250922 Z" id="路径" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

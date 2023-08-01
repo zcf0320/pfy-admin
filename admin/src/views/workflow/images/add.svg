@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>删除</title>
+    <g id="健康管理系用1.9.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="管理常用功能" transform="translate(-960.000000, -442.000000)">
+            <g id="删除备份-4" transform="translate(960.000000, 442.000000)">
+                <circle id="椭圆形" fill="#18C492" cx="8" cy="8" r="8"></circle>
+                <rect id="矩形" fill="#FFFFFF" x="3" y="7" width="10" height="2" rx="1"></rect>
+                <rect id="矩形" fill="#FFFFFF" transform="translate(8.000000, 8.000000) rotate(-90.000000) translate(-8.000000, -8.000000) " x="3" y="7" width="10" height="2" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

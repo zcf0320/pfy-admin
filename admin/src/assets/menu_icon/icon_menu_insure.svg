@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>管理 (1)备份</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" transform="translate(-630.000000, -806.000000)" fill-rule="nonzero">
+            <g id="管理-(1)备份" transform="translate(630.000000, 806.000000)">
+                <path d="M0.00491695804,8.42274913 L1.81435752,7.32135052 L8.97344843,11.6482736 L16.1325393,7.32135052 L17.9419799,8.42274913 L8.97344843,13.8510708 L0.00491695804,8.42274913 Z M8.97344843,15.7391827 L16.1325393,11.4122596 L17.9419799,12.5136582 L8.97344843,17.9419799 L0.00491695804,12.5136582 L1.81435752,11.4122596 L8.97344843,15.7391827 Z" id="形状" fill="#2B2C43"></path>
+                <polygon id="路径" fill="#494B74" points="0.00491695804 4.88253934 8.97344843 0.00491695804 17.9419799 4.88253934 8.97344843 9.76016171"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
